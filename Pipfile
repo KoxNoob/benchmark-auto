@@ -8,8 +8,8 @@ verify_ssl = true
 [packages]
 streamlit = "*"
 pandas = "*"
-selenium = "*"
 numpy = "*"
+selenium = "*"
 
 [requires]
 python_version = "3.7"
