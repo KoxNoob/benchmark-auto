@@ -26,19 +26,19 @@ name_basket = []
 name_tennis = []
 name_rugby = []
 
-urls_foot = pd.read_csv('https://raw.githubusercontent.com/KoxNoob/Benchmark-Auto/main/competitions_foot.csv', sep=';', encoding="utf-8", header=None)
+urls_foot = pd.read_csv('https://raw.githubusercontent.com/KoxNoob/benchmark-auto/main/competitions_foot.csv', sep=';', encoding="utf-8", header=None)
 for i in range(len(urls_foot)):
     name_foot.append(urls_foot.iloc[i, 0])
 
-urls_basket = pd.read_csv('https://raw.githubusercontent.com/KoxNoob/Benchmark-Auto/main/competitions_basket.csv', sep=';', encoding="utf-8", header=None)
+urls_basket = pd.read_csv('https://raw.githubusercontent.com/KoxNoob/benchmark-auto/main/competitions_basket.csv', sep=';', encoding="utf-8", header=None)
 for i in range(len(urls_basket)):
     name_basket.append(urls_basket.iloc[i, 0])
 
-urls_tennis = pd.read_csv('https://raw.githubusercontent.com/KoxNoob/Benchmark-Auto/main/competitions_tennis.csv', sep=';', encoding="utf-8", header=None)
+urls_tennis = pd.read_csv('https://raw.githubusercontent.com/KoxNoob/benchmark-auto/main/competitions_tennis.csv', sep=';', encoding="utf-8", header=None)
 for i in range(len(urls_tennis)):
     name_tennis.append(urls_tennis.iloc[i, 0])
 
-urls_rugby = pd.read_csv('https://raw.githubusercontent.com/KoxNoob/Benchmark-Auto/main/competitions_rugby.csv', sep=';', encoding="utf-8", header=None)
+urls_rugby = pd.read_csv('https://raw.githubusercontent.com/KoxNoob/benchmark-auto/main/competitions_rugby.csv', sep=';', encoding="utf-8", header=None)
 for i in range(len(urls_rugby)):
     name_rugby.append(urls_rugby.iloc[i, 0])
 
