@@ -121,7 +121,7 @@ def deux_issues(cote_float, nb_rencontres):
 
 
 def scrap(urlpage, balise):
-    driver = webdriver.Firefox()
+    driver = webdriver.PhantomJS()
     driver.get(urlpage)
     data = []
     t = 0
