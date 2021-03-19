@@ -53,9 +53,7 @@ if sport == "Football":
     nb_rencontres = st.slider('Combien de rencontres à prendre en compte maximum ?', 0, 20, 2)
     options = st.multiselect('Quelle compétition ?', name_foot)
     lancement = st.button('Lancez le benchmark')
-    testo = "Test"
-    st.write(test.test(testo))
-    st.table(urls_foot)
+
     if lancement:
         bench_final = pd.DataFrame(index=[i for i in operateurs])
         for competition in options:
@@ -69,6 +67,9 @@ if sport == "Football":
                                 if urls_foot.iloc[0, k] == ope and ope in operateur_selectionne:
 
                                     if ope == "unibet":
+                                        st.write(ope)
+                                        st.write(urls_foot.iloc[j, k])
+                                        st.write(nb_rencontres)
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
                                                                               "//*[@class=\"ui-mainview-block eventpath-wrapper\"]"),
                                                                    nb_rencontres))
