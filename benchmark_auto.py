@@ -53,7 +53,8 @@ if sport == "Football":
     nb_rencontres = st.slider('Combien de rencontres à prendre en compte maximum ?', 0, 20, 2)
     options = st.multiselect('Quelle compétition ?', name_foot)
     lancement = st.button('Lancez le benchmark')
-
+    testo = "Test"
+    st.write(test.test(testo))
     if lancement:
         bench_final = pd.DataFrame(index=[i for i in operateurs])
         for competition in options:

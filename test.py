@@ -7,6 +7,10 @@ liste_trj = []
 trj_final = 0
 
 
+def test(testo):
+    return testo
+
+
 def go_to_float(cote, cote_float):
     for elem in cote:
         elem = elem.replace(',', '.')
