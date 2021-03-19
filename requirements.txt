@@ -1,0 +1,4 @@
+streamlit==0.76.0
+pandas==1.2.1
+selenium==3.141.0
+numpy==1.19.5
