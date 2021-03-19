@@ -67,9 +67,6 @@ if sport == "Football":
                                 if urls_foot.iloc[0, k] == ope and ope in operateur_selectionne:
 
                                     if ope == "unibet":
-                                        st.write(ope)
-                                        st.write(urls_foot.iloc[j, k])
-                                        st.write(nb_rencontres)
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
                                                                               "//*[@class=\"ui-mainview-block eventpath-wrapper\"]"),
                                                                    nb_rencontres))
