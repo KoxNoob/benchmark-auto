@@ -55,6 +55,7 @@ if sport == "Football":
     lancement = st.button('Lancez le benchmark')
     testo = "Test"
     st.write(test.test(testo))
+    st.table(urls_foot)
     if lancement:
         bench_final = pd.DataFrame(index=[i for i in operateurs])
         for competition in options:
