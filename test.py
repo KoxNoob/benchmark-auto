@@ -122,7 +122,7 @@ def deux_issues(cote_float, nb_rencontres):
 
 def scrap(urlpage, balise):
     st.write("toto")
-    driver = webdriver.PhantomJS()
+    driver = webdriver.Firefox()
     driver.get(urlpage)
     data = []
     t = 0
