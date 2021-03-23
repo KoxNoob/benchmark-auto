@@ -121,7 +121,7 @@ def deux_issues(cote_float, nb_rencontres):
 
 
 def scrap(urlpage, balise):
-    st.write("toto")
+    #st.write("toto")
     driver = webdriver.Firefox()
     driver.get(urlpage)
     data = []
@@ -147,5 +147,6 @@ def scrap(urlpage, balise):
         go_to_float(cote, cote_float)
     except:
         cote_float = [0]
+    st.write(cote_float)
     return cote_float
 
