@@ -270,8 +270,8 @@ if sport == "Tennis":
                                             test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"wpsel-app-wrapper\"]"),
                                             nb_rencontres))
                                     elif ope == "pokerstars":
-                                        trj = (test.deux_issues(
-                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"sportCompetitionsView\"]"),
+                                        trj = (test.deux_issues(test.parse_pokerstars_2_issues(
+                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"content-center\"]")),
                                             nb_rencontres))
                                     elif ope == "pmu":
                                         trj = (test.deux_issues(test.scrap(urls_tennis.iloc[j, k],

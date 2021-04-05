@@ -53,6 +53,14 @@ def delete_fake_odds(cotes_initiales):
                 break
     return cotes_initiales
 
+def parse_pokerstars_2_issues(cotes_initiales):
+    cotes_finales = []
+
+    for a in range(len(cotes_initiales)):
+        if a%2 == 0:
+            cotes_finales.append(cotes_initiales[a])
+    st.write(cotes_finales)
+    return cotes_finales
 
 def parse_joa_2_issues(cotes_initiales):
     cotes_finales = []
@@ -153,6 +161,6 @@ def scrap(urlpage, balise):
         go_to_float(cote, cote_float)
     except:
         cote_float = [0]
-
+    #st.write(cote_float)
     return cote_float
 

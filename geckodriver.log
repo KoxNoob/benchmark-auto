@@ -20585,3 +20585,455 @@ JavaScript error: https://www.joabet.fr//Templates/Scripts/app/controller/Didomi
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1617625114701	geckodriver	INFO	Listening on 127.0.0.1:62332
+1617625117813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofilenlzPmY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625120920	Marionette	INFO	Listening on port 62340
+1617625121020	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617625134188	Marionette	INFO	Stopped listening on port 62340
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625135194	geckodriver	INFO	Listening on 127.0.0.1:62410
+1617625138264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofile9nKATX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625141302	Marionette	INFO	Listening on port 62418
+1617625141464	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617625153165	Marionette	INFO	Stopped listening on port 62418
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625154050	geckodriver	INFO	Listening on 127.0.0.1:62506
+1617625157129	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofileS7kcD9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625159858	Marionette	INFO	Listening on port 62515
+1617625160315	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617625169639	Marionette	INFO	Stopped listening on port 62515
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625170545	geckodriver	INFO	Listening on 127.0.0.1:62599
+1617625173621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofiletfVa6w"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625176290	Marionette	INFO	Listening on port 62607
+1617625176809	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617625179751	Marionette	INFO	Stopped listening on port 62607
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625180620	geckodriver	INFO	Listening on 127.0.0.1:62670
+1617625183705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofilebqF6gE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625186635	Marionette	INFO	Listening on port 62678
+1617625186896	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://paris-sportifs.pmu.fr/sites/default/files/js/js_FKlS9n0Pu6ncJY-QX1M1U6HUlZV4KNmx4v1k1UUFi0c.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1617625193809	Marionette	INFO	Stopped listening on port 62678
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1709: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Morgan\AppData\Local\Temp\rust_mozprofilebqF6gE\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625194667	geckodriver	INFO	Listening on 127.0.0.1:62731
+1617625197767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofilesIk1Mn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625200326	Marionette	INFO	Listening on port 62739
+1617625200455	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617625206990	Marionette	INFO	Stopped listening on port 62739
+JavaScript error: https://cdn.tradelab.fr/fseg/4824.js?add=25237860, line 44: TypeError: document.location is null
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Morgan\AppData\Local\Temp\rust_mozprofilesIk1Mn\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625208065	geckodriver	INFO	Listening on 127.0.0.1:62884
+1617625211141	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofile2xfCab"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625213805	Marionette	INFO	Listening on port 62892
+1617625214318	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617625230150	Marionette	INFO	Stopped listening on port 62892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625231010	geckodriver	INFO	Listening on 127.0.0.1:62940
+1617625234063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofileI7QbFe"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625236629	Marionette	INFO	Listening on port 62948
+1617625236746	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.netbet.fr/assets/gen/javascript-2956487476.js?v=4.36.3, line 440: unreachable code after return statement
+JavaScript warning: https://www.netbet.fr/assets/gen/javascript-2956487476.js?v=4.36.3, line 440: unreachable code after return statement
+1617625239640	Marionette	INFO	Stopped listening on port 62948
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625240510	geckodriver	INFO	Listening on 127.0.0.1:63021
+1617625243581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofilezrswdY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625246194	Marionette	INFO	Listening on port 63029
+1617625246258	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sport.genybet.fr/assets/gen/javascript-363808476.js?v=1.0.000001, line 176: unreachable code after return statement
+JavaScript warning: https://sport.genybet.fr/assets/gen/javascript-363808476.js?v=1.0.000001, line 2175: unreachable code after return statement
+1617625250662	Marionette	INFO	Stopped listening on port 63029
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625251536	geckodriver	INFO	Listening on 127.0.0.1:63087
+1617625254614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofilerXTWrN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625257420	Marionette	INFO	Listening on port 63095
+1617625257776	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617625260412	Marionette	INFO	Stopped listening on port 63095
+[Parent 13960, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Morgan\AppData\Local\Temp\rust_mozprofilerXTWrN\protections.sqlite
+[Child 8348, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617625261225	geckodriver	INFO	Listening on 127.0.0.1:63160
+1617625264298	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofilefcvUyx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617625267089	Marionette	INFO	Listening on port 63171
+1617625267504	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://www.joabet.fr//Templates/Scripts/app/controller/DidomiCookiesController.js?version=685bd1c3b577f377652b6af218f95d5a3900cfeb&lang=fr, line 1: Error: [DIDOMI] Consent status undefined for library global_preferences
+1617625280944	Marionette	INFO	Stopped listening on port 63171
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617626138647	geckodriver	INFO	Listening on 127.0.0.1:63421
+1617626141712	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofileONglHP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617626144619	Marionette	INFO	Listening on port 63429
+1617626144897	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617626152218	Marionette	INFO	Stopped listening on port 63429
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 687))
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB60006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Morgan\AppData\Local\Temp\rust_mozprofileONglHP\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617626324096	geckodriver	INFO	Listening on 127.0.0.1:63687
+1617626327147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofile48XK0r"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617626331327	Marionette	INFO	Listening on port 63696
+1617626331561	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617626342508	Marionette	INFO	Stopped listening on port 63696
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB60006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Morgan\AppData\Local\Temp\rust_mozprofile48XK0r\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617626606136	geckodriver	INFO	Listening on 127.0.0.1:63987
+1617626609222	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofileKu93wT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617626612019	Marionette	INFO	Listening on port 63996
+1617626612419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617626619744	Marionette	INFO	Stopped listening on port 63996
+JavaScript error: https://cdn.tradelab.fr/fseg/4824.js?add=25237860, line 44: TypeError: document.location is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617626693233	geckodriver	INFO	Listening on 127.0.0.1:64194
+1617626696223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofileVEtSZy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617626701709	Marionette	INFO	Listening on port 64204
+1617626702027	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617626708903	Marionette	INFO	Stopped listening on port 64204
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB60006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Morgan\AppData\Local\Temp\rust_mozprofileVEtSZy\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617626858906	geckodriver	INFO	Listening on 127.0.0.1:64436
+1617626861956	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofiledh41Yz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617626864790	Marionette	INFO	Listening on port 64445
+1617626865172	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617626871697	Marionette	INFO	Stopped listening on port 64445
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617626914174	geckodriver	INFO	Listening on 127.0.0.1:64649
+1617626917247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofileeNG57f"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617626919997	Marionette	INFO	Listening on port 64661
+1617626920405	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617626926596	Marionette	INFO	Stopped listening on port 64661
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617626927643	geckodriver	INFO	Listening on 127.0.0.1:64807
+1617626930741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofilefkjcOt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617626933576	Marionette	INFO	Listening on port 64819
+1617626933921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617626939807	Marionette	INFO	Stopped listening on port 64819
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617626940831	geckodriver	INFO	Listening on 127.0.0.1:64970
+1617626943893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofileP89yh2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617626946593	Marionette	INFO	Listening on port 64986
+1617626947053	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617626954805	Marionette	INFO	Stopped listening on port 64986
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1709: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1709: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB60006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Morgan\AppData\Local\Temp\rust_mozprofileP89yh2\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617626955986	geckodriver	INFO	Listening on 127.0.0.1:65116
+1617626959004	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Morgan\\AppData\\Local\\Temp\\rust_mozprofilepblbZc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617626961924	Marionette	INFO	Listening on port 65125
+1617626962182	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.btstatic.com/lib/3613eb4b5cb65b6947a04653e3598b67f3c301cf.js?v=2, line 1: ReferenceError: f8user is not defined
+1617626968335	Marionette	INFO	Stopped listening on port 65125
+JavaScript error: https://cdn.tradelab.fr/fseg/4824.js?add=25237860, line 44: TypeError: document.location is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230032,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB60006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Morgan\AppData\Local\Temp\rust_mozprofilepblbZc\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
