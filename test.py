@@ -56,7 +56,9 @@ def delete_fake_odds(cotes_initiales):
 
 def parse_joa_2_issues(cotes_initiales):
     cotes_finales = []
+    cotes_tempo = []
     modulo = int(len(cotes_initiales)/4)
+
     for a in range(modulo):
         try:
             if len(cotes_initiales[a]) > 5:
@@ -66,11 +68,15 @@ def parse_joa_2_issues(cotes_initiales):
 
     for a in range(modulo):
         try:
-            cotes_finales.append(cotes_initiales[0])
-            cotes_finales.append(cotes_initiales[1])
-            del cotes_initiales[0:4]
+            cotes_tempo.append(cotes_initiales[0])
+            cotes_tempo.append(cotes_initiales[1])
+            del cotes_initiales[0:5]
         except:
             break
+
+    for a in range(len(cotes_tempo)):
+        if cotes_tempo[a] < 10.0:
+            cotes_finales.append(cotes_tempo[a])
 
     return cotes_finales
 
@@ -127,7 +133,7 @@ def scrap(urlpage, balise):
     data = []
     t = 0
 
-    while len(data) == 0 and t < 8:
+    while len(data) == 0 and t < 15:
         time.sleep(1)
         results = driver.find_elements_by_xpath(balise)
         for result in results:
@@ -147,6 +153,6 @@ def scrap(urlpage, balise):
         go_to_float(cote, cote_float)
     except:
         cote_float = [0]
-    st.write(cote_float)
+
     return cote_float
 

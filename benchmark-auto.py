@@ -76,7 +76,7 @@ if sport == "Football":
                                                                    nb_rencontres))
                                     elif ope == "winamax":
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
-                                                                              "//*[@class=\"sc-djErbT ftrOoP\"]//*[@class=\"ReactVirtualized__Grid__innerScrollContainer\"]"),
+                                                                              "//*[@class=\"sc-fakplV bCGXIW\"]"),
                                                                    nb_rencontres))
                                     elif ope == "vbet":
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
