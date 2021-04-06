@@ -20,7 +20,7 @@ def go_to_float(cote, cote_float):
 
 def parse_cote(cotes_initiales, cotes_finales, sport):
     cote_tempo = []
-    print(cotes_initiales)
+
     for i in range(len(cotes_initiales)):
         try:
             if cotes_initiales[i] in numero:
@@ -34,7 +34,7 @@ def parse_cote(cotes_initiales, cotes_finales, sport):
                     cote_tempo.append(cotes_initiales[i:i + 2])
         except:
             break
-
+    st.write(cote_tempo)
     if sport == "Rugby":
         for i in range(len(cote_tempo)):
             try:
@@ -163,7 +163,7 @@ def scrap(urlpage, balise,sport):
         cote_a_nettoyer = data[0]
         cote = []
         cote_float = []
-        st.write(cote_a_nettoyer)
+
         cotes_parse = parse_cote(cote_a_nettoyer, cote, sport)
         delete_fake_odds(cotes_parse)
         go_to_float(cotes_parse, cote_float)
