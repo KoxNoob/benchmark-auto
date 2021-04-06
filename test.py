@@ -34,7 +34,7 @@ def parse_cote(cotes_initiales, cotes_finales, sport):
                     cote_tempo.append(cotes_initiales[i:i + 2])
         except:
             break
-    st.write(cote_tempo)
+
     if sport == "Rugby":
         for i in range(len(cote_tempo)):
             try:
@@ -143,7 +143,7 @@ def deux_issues(cote_float, nb_rencontres):
 
 def scrap(urlpage, balise,sport):
     #st.write("toto")
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.get(urlpage)
     data = []
     t = 0
@@ -169,6 +169,6 @@ def scrap(urlpage, balise,sport):
         go_to_float(cotes_parse, cote_float)
     except:
         cote_float = [0]
-
+    st.write(cote_float)
     return cote_float
 
