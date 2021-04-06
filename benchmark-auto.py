@@ -42,6 +42,7 @@ urls_rugby = pd.read_csv('https://raw.githubusercontent.com/KoxNoob/benchmark-au
 for i in range(len(urls_rugby)):
     name_rugby.append(urls_rugby.iloc[i, 0])
 
+
 sport = st.sidebar.radio('Sports', ("Football", "Basketball", "Tennis", "Rugby"))
 
 if sport == "Football":
@@ -68,51 +69,51 @@ if sport == "Football":
 
                                     if ope == "unibet":
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
-                                                                              "//*[@class=\"ui-mainview-block eventpath-wrapper\"]"),
+                                                                              "//*[@class=\"ui-mainview-block eventpath-wrapper\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "Zebet":
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
-                                                                              "//*[@class=\"uk-accordion-content uk-padding-remove uk-active\"]"),
+                                                                              "//*[@class=\"uk-accordion-content uk-padding-remove uk-active\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "winamax":
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
-                                                                              "//*[@class=\"sc-fakplV bCGXIW\"]"),
+                                                                              "//*[@class=\"sc-fakplV bCGXIW\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "vbet":
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
-                                                                              "//*[@class=\"   module ModuleSbEventsList \"]"),
+                                                                              "//*[@class=\"   module ModuleSbEventsList \"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "psel":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"wpsel-app-wrapper\"]"),
+                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"wpsel-app-wrapper\"]",sport),
                                             nb_rencontres))
                                     elif ope == "pokerstars":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"sportCompetitionsView\"]"),
+                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"sportCompetitionsView\"]",sport),
                                             nb_rencontres))
                                     elif ope == "pmu":
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
-                                                                              "//*[@class=\"entity entity-bean bean-event-list clearfix\"]"),
+                                                                              "//*[@class=\"entity entity-bean bean-event-list clearfix\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "netbet":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"nb-middle-content uk-flex\"]"),
+                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"nb-middle-content uk-flex\"]",sport),
                                             nb_rencontres))
                                     elif ope == "genybet":
                                         trj = (test.trois_issues(test.scrap(urls_foot.iloc[j, k],
-                                                                              "//*[@class=\"snc-middle-content-middle uk-width-1-1\"]"),
+                                                                              "//*[@class=\"snc-middle-content-middle uk-width-1-1\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "fp":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"item-content uk-active\"]"),
+                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"item-content uk-active\"]",sport),
                                             nb_rencontres))
                                     elif ope == "betclic":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"verticalScroller_wrapper\"]"),
+                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"verticalScroller_wrapper\"]",sport),
                                             nb_rencontres))
                                     elif ope == "joa":
                                         trj = (test.trois_issues(test.parse_joa_3_issues(
-                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"bet-event-list\"]")),
+                                            test.scrap(urls_foot.iloc[j, k], "//*[@class=\"bet-event-list\"]",sport)),
                                                                    nb_rencontres))
 
 
@@ -159,51 +160,51 @@ if sport == "Basketball":
 
                                     if ope == "unibet":
                                         trj = (test.deux_issues(test.scrap(urls_basket.iloc[j, k],
-                                                                              "//*[@class=\"ui-mainview-block eventpath-wrapper\"]"),
+                                                                              "//*[@class=\"ui-mainview-block eventpath-wrapper\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "Zebet":
                                         trj = (test.deux_issues(test.scrap(urls_basket.iloc[j, k],
-                                                                              "//*[@class=\"uk-accordion-content uk-padding-remove uk-active\"]"),
+                                                                              "//*[@class=\"uk-accordion-content uk-padding-remove uk-active\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "winamax":
                                         trj = (test.deux_issues(test.scrap(urls_basket.iloc[j, k],
-                                                                              "//*[@class=\"sc-djErbT ftrOoP\"]//*[@class=\"ReactVirtualized__Grid__innerScrollContainer\"]"),
+                                                                              "//*[@class=\"sc-djErbT ftrOoP\"]//*[@class=\"ReactVirtualized__Grid__innerScrollContainer\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "vbet":
                                         trj = (test.deux_issues(test.scrap(urls_basket.iloc[j, k],
-                                                                              "//*[@class=\"   module ModuleSbEventsList \"]"),
+                                                                              "//*[@class=\"   module ModuleSbEventsList \"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "psel":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"wpsel-app-wrapper\"]"),
+                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"wpsel-app-wrapper\"]",sport),
                                             nb_rencontres))
                                     elif ope == "pokerstars":
                                         trj = (test.deux_issues(
-                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"sportCompetitionsView\"]"),
+                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"sportCompetitionsView\"]",sport),
                                             nb_rencontres))
                                     elif ope == "pmu":
                                         trj = (test.deux_issues(test.scrap(urls_basket.iloc[j, k],
-                                                                              "//*[@class=\"entity entity-bean bean-event-list clearfix\"]"),
+                                                                              "//*[@class=\"entity entity-bean bean-event-list clearfix\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "netbet":
                                         trj = (test.deux_issues(
-                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"nb-middle-content uk-flex\"]"),
+                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"nb-middle-content uk-flex\"]",sport),
                                             nb_rencontres))
                                     elif ope == "genybet":
                                         trj = (test.deux_issues(test.scrap(urls_basket.iloc[j, k],
-                                                                              "//*[@class=\"snc-middle-content-middle uk-width-1-1\"]"),
+                                                                              "//*[@class=\"snc-middle-content-middle uk-width-1-1\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "fp":
                                         trj = (test.deux_issues(
-                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"item-content uk-active\"]"),
+                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"item-content uk-active\"]",sport),
                                             nb_rencontres))
                                     elif ope == "betclic":
                                         trj = (test.deux_issues(
-                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"verticalScroller_wrapper\"]"),
+                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"verticalScroller_wrapper\"]",sport),
                                             nb_rencontres))
                                     elif ope == "joa":
                                         trj = (test.deux_issues(test.parse_joa_2_issues(
-                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"bet-event-list\"]")),
+                                            test.scrap(urls_basket.iloc[j, k], "//*[@class=\"bet-event-list\"]",sport)),
                                                                    nb_rencontres))
 
 
@@ -251,51 +252,51 @@ if sport == "Tennis":
 
                                     if ope == "unibet":
                                         trj = (test.deux_issues(test.scrap(urls_tennis.iloc[j, k],
-                                                                              "//*[@class=\"ui-mainview-block eventpath-wrapper\"]"),
+                                                                              "//*[@class=\"ui-mainview-block eventpath-wrapper\"]", sport),
                                                                    nb_rencontres))
                                     elif ope == "Zebet":
                                         trj = (test.deux_issues(test.scrap(urls_tennis.iloc[j, k],
-                                                                              "//*[@class=\"uk-accordion-content uk-padding-remove uk-active\"]"),
+                                                                              "//*[@class=\"uk-accordion-content uk-padding-remove uk-active\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "winamax":
                                         trj = (test.deux_issues(test.scrap(urls_tennis.iloc[j, k],
-                                                                              "//*[@class=\"sc-djErbT ftrOoP\"]//*[@class=\"ReactVirtualized__Grid__innerScrollContainer\"]"),
+                                                                              "//*[@class=\"sc-djErbT ftrOoP\"]//*[@class=\"ReactVirtualized__Grid__innerScrollContainer\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "vbet":
                                         trj = (test.deux_issues(test.scrap(urls_tennis.iloc[j, k],
-                                                                              "//*[@class=\"   module ModuleSbEventsList \"]"),
+                                                                              "//*[@class=\"   module ModuleSbEventsList \"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "psel":
                                         trj = (test.deux_issues(
-                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"wpsel-app-wrapper\"]"),
+                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"wpsel-app-wrapper\"]",sport),
                                             nb_rencontres))
                                     elif ope == "pokerstars":
                                         trj = (test.deux_issues(test.parse_pokerstars_2_issues(
-                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"content-center\"]")),
+                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"content-center\"]",sport)),
                                             nb_rencontres))
                                     elif ope == "pmu":
                                         trj = (test.deux_issues(test.scrap(urls_tennis.iloc[j, k],
-                                                                              "//*[@class=\"entity entity-bean bean-event-list clearfix\"]"),
+                                                                              "//*[@class=\"entity entity-bean bean-event-list clearfix\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "netbet":
                                         trj = (test.deux_issues(
-                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"nb-middle-content uk-flex\"]"),
+                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"nb-middle-content uk-flex\"]",sport),
                                             nb_rencontres))
                                     elif ope == "genybet":
                                         trj = (test.deux_issues(test.scrap(urls_tennis.iloc[j, k],
-                                                                              "//*[@class=\"snc-middle-content-middle uk-width-1-1\"]"),
+                                                                              "//*[@class=\"snc-middle-content-middle uk-width-1-1\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "fp":
                                         trj = (test.deux_issues(
-                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"item-content uk-active\"]"),
+                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"item-content uk-active\"]",sport),
                                             nb_rencontres))
                                     elif ope == "betclic":
                                         trj = (test.deux_issues(
-                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"verticalScroller_wrapper\"]"),
+                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"verticalScroller_wrapper\"]",sport),
                                             nb_rencontres))
                                     elif ope == "joa":
                                         trj = (test.deux_issues(test.parse_joa_2_issues(
-                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"bet-event-list\"]")),
+                                            test.scrap(urls_tennis.iloc[j, k], "//*[@class=\"bet-event-list\"]",sport)),
                                                                    nb_rencontres))
 
 
@@ -342,51 +343,51 @@ if sport == "Rugby":
 
                                     if ope == "unibet":
                                         trj = (test.trois_issues(test.scrap(urls_rugby.iloc[j, k],
-                                                                              "//*[@class=\"ui-mainview-block eventpath-wrapper\"]"),
+                                                                              "//*[@class=\"ui-mainview-block eventpath-wrapper\"]", sport),
                                                                    nb_rencontres))
                                     elif ope == "Zebet":
                                         trj = (test.trois_issues(test.scrap(urls_rugby.iloc[j, k],
-                                                                              "//*[@class=\"uk-accordion-content uk-padding-remove uk-active\"]"),
+                                                                              "//*[@class=\"uk-accordion-content uk-padding-remove uk-active\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "winamax":
                                         trj = (test.trois_issues(test.scrap(urls_rugby.iloc[j, k],
-                                                                              "//*[@class=\"sc-djErbT ftrOoP\"]//*[@class=\"ReactVirtualized__Grid__innerScrollContainer\"]"),
+                                                                              "//*[@class=\"sc-djErbT ftrOoP\"]//*[@class=\"ReactVirtualized__Grid__innerScrollContainer\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "vbet":
                                         trj = (test.trois_issues(test.scrap(urls_rugby.iloc[j, k],
-                                                                              "//*[@class=\"   module ModuleSbEventsList \"]"),
+                                                                              "//*[@class=\"   module ModuleSbEventsList \"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "psel":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"wpsel-app-wrapper\"]"),
+                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"wpsel-app-wrapper\"]",sport),
                                             nb_rencontres))
                                     elif ope == "pokerstars":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"sportCompetitionsView\"]"),
+                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"sportCompetitionsView\"]",sport),
                                             nb_rencontres))
                                     elif ope == "pmu":
                                         trj = (test.trois_issues(test.scrap(urls_rugby.iloc[j, k],
-                                                                              "//*[@class=\"entity entity-bean bean-event-list clearfix\"]"),
+                                                                              "//*[@class=\"entity entity-bean bean-event-list clearfix\"]",sport),
                                                                    nb_rencontres))
                                     elif ope == "netbet":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"nb-middle-content uk-flex\"]"),
+                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"nb-middle-content uk-flex\"]",sport),
                                             nb_rencontres))
                                     elif ope == "genybet":
                                         trj = (test.trois_issues(test.scrap(urls_rugby.iloc[j, k],
-                                                                              "//*[@class=\"snc-middle-content-middle uk-width-1-1\"]"),
+                                                                              "//*[@class=\"snc-middle-content-middle uk-width-1-1\"]", sport),
                                                                    nb_rencontres))
                                     elif ope == "fp":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"item-content uk-active\"]"),
+                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"item-content uk-active\"]",sport),
                                             nb_rencontres))
                                     elif ope == "betclic":
                                         trj = (test.trois_issues(
-                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"verticalScroller_wrapper\"]"),
+                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"verticalScroller_wrapper\"]", sport),
                                             nb_rencontres))
                                     elif ope == "joa":
                                         trj = (test.trois_issues(test.parse_joa_3_issues(
-                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"bet-event-list\"]")),
+                                            test.scrap(urls_rugby.iloc[j, k], "//*[@class=\"bet-event-list\"]", sport)),
                                                                    nb_rencontres))
 
 

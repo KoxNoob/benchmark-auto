@@ -18,28 +18,35 @@ def go_to_float(cote, cote_float):
     return cote_float
 
 
-def parse_cote(cotes_initiales, cotes_finales):
+def parse_cote(cotes_initiales, cotes_finales, sport):
+    cote_tempo = []
+    print(cotes_initiales)
     for i in range(len(cotes_initiales)):
         try:
             if cotes_initiales[i] in numero:
-                if cotes_initiales[i + 1] == "," and cotes_initiales[i - 1] in numero:
-                    cotes_finales.append(cotes_initiales[i - 1:i + 4])
-                elif cotes_initiales[i + 1] == ",":
-                    cotes_finales.append(cotes_initiales[i:i + 4])
+                if (cotes_initiales[i + 1] == "," or cotes_initiales[i + 1] == ".") and cotes_initiales[i - 1] in numero:
+                    cote_tempo.append(cotes_initiales[i - 1:i + 4])
+                elif cotes_initiales[i + 1] == "," or cotes_initiales[i + 1] == ".":
+                    cote_tempo.append(cotes_initiales[i:i + 4])
+                elif "ul" in cotes_initiales[i - 3: i]:
+                    cote_tempo.append(cotes_initiales[i:i + 2])
+                elif "NUL" in cotes_initiales[i - 4:i]:
+                    cote_tempo.append(cotes_initiales[i:i + 2])
         except:
             break
 
-    for i in range(len(cotes_initiales)):
-        try:
-            if cotes_initiales[i] in numero:
-                if cotes_initiales[i + 1] == "." and cotes_initiales[i - 1] in numero:
-                    cotes_finales.append(cotes_initiales[i - 1:i + 4])
-                elif cotes_initiales[i + 1] == ".":
-                    cotes_finales.append(cotes_initiales[i:i + 4])
-        except:
-            break
-
-    return cotes_finales
+    if sport == "Rugby":
+        for i in range(len(cote_tempo)):
+            try:
+                if cote_tempo[i][0:2] != cote_tempo[i+1][0:2]:
+                    cotes_finales.append(cote_tempo[i])
+            except:
+                break
+        cotes_finales.append(cote_tempo[-1])
+        return cotes_finales
+    else:
+        cotes_finales = cote_tempo.copy()
+        return cotes_finales
 
 
 def delete_fake_odds(cotes_initiales):
@@ -59,7 +66,7 @@ def parse_pokerstars_2_issues(cotes_initiales):
     for a in range(len(cotes_initiales)):
         if a%2 == 0:
             cotes_finales.append(cotes_initiales[a])
-    st.write(cotes_finales)
+
     return cotes_finales
 
 def parse_joa_2_issues(cotes_initiales):
@@ -134,7 +141,7 @@ def deux_issues(cote_float, nb_rencontres):
     return trj_final
 
 
-def scrap(urlpage, balise):
+def scrap(urlpage, balise,sport):
     #st.write("toto")
     driver = webdriver.Firefox()
     driver.get(urlpage)
@@ -156,11 +163,12 @@ def scrap(urlpage, balise):
         cote_a_nettoyer = data[0]
         cote = []
         cote_float = []
-        parse_cote(cote_a_nettoyer, cote)
-        delete_fake_odds(cote)
-        go_to_float(cote, cote_float)
+        st.write(cote_a_nettoyer)
+        cotes_parse = parse_cote(cote_a_nettoyer, cote, sport)
+        delete_fake_odds(cotes_parse)
+        go_to_float(cotes_parse, cote_float)
     except:
         cote_float = [0]
-    #st.write(cote_float)
+
     return cote_float
 
