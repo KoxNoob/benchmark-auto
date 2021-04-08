@@ -143,7 +143,10 @@ def deux_issues(cote_float, nb_rencontres):
 
 def scrap(urlpage, balise,sport):
     #st.write("toto")
-    driver = webdriver.Chrome()
+    firefox_options = webdriver.FirefoxOptions()
+    firefox_options.add_argument("--headless")
+
+    driver = webdriver.Firefox(firefox_options=firefox_options)
     driver.get(urlpage)
     data = []
     t = 0
