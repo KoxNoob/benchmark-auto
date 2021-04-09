@@ -146,7 +146,7 @@ def scrap(urlpage, balise,sport):
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--headless")
 
-    driver = webdriver.Chrome("https://github.com/KoxNoob/benchmark-auto/blob/main/chromedriver.exe", chrome_options=chrome_options)
+    driver = webdriver.Chrome(chrome_options=chrome_options)
     driver.get(urlpage)
     data = []
     t = 0
