@@ -142,37 +142,43 @@ def deux_issues(cote_float, nb_rencontres):
 
 
 def scrap(urlpage, balise,sport):
-    #st.write("toto")
-    #chrome_options = webdriver.ChromeOptions()
-    #chrome_options.add_argument("--headless")
+    GOOGLE_CHROME_BIN = "/app/.apt/usr/bin/google-chrome"
+    CHROMEDRIVER_PATH = "/app/.chromedriver/bin/chromedriver"
 
-    #driver = webdriver.Chrome(chrome_options=chrome_options)
-    driver = webdriver.PhantomJS()
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.binary_location = GOOGLE_CHROME_BIN
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--no-sandbox')
+    driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
+
+    #driver = webdriver.PhantomJS()
+    st.write(urlpage)
+    st.write(balise)
     driver.get(urlpage)
     data = []
     t = 0
 
-    while len(data) == 0 and t < 15:
+    while len(data) == 0 and t < 30:
         time.sleep(1)
         results = driver.find_elements_by_xpath(balise)
+        st.write(results)
         for result in results:
             product_name = result.text
             if product_name != "":
                 data.append(product_name)
         t += 1
 
-
     driver.quit()
     try:
         cote_a_nettoyer = data[0]
         cote = []
         cote_float = []
-
+        st.write(cote_a_nettoyer)
         cotes_parse = parse_cote(cote_a_nettoyer, cote, sport)
         delete_fake_odds(cotes_parse)
         go_to_float(cotes_parse, cote_float)
     except:
         cote_float = [0]
-    st.write(cote_float)
+    #st.write(cote_float)
     return cote_float
 
