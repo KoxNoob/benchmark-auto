@@ -158,10 +158,9 @@ def scrap(urlpage, balise,sport):
     data = []
     t = 0
 
-    while len(data) == 0 and t < 30:
+    while len(data) == 0 and t < 15:
         time.sleep(1)
         results = driver.find_elements_by_xpath(balise)
-        st.write(results)
         for result in results:
             product_name = result.text
             if product_name != "":
@@ -173,12 +172,11 @@ def scrap(urlpage, balise,sport):
         cote_a_nettoyer = data[0]
         cote = []
         cote_float = []
-        st.write(cote_a_nettoyer)
         cotes_parse = parse_cote(cote_a_nettoyer, cote, sport)
         delete_fake_odds(cotes_parse)
         go_to_float(cotes_parse, cote_float)
     except:
         cote_float = [0]
-    #st.write(cote_float)
+
     return cote_float
 
